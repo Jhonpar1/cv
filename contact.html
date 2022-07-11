@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Information</title>
+  </head>
+  <body>
+    <h1>Contact Information</h1>
+    <h2>📞Telephone</h2>
+    <p><a href="tel:+573138934592">+573138934592</a></p>
+    <h2>✉Email</h2>
+    <p><a href="mailto:jh.22parra@gmail.com">jh.22parra@gmail.com</a></p>
+    <h2>🌏linkedin</h2>
+    <a href="https://www.linkedin.com/in/jhon-f-parra-689852199/"rel="noreferrer noopener">@Jhonpar1</a>
+  </body>
+  <hr size="3" noshade>
+  <h3>Contact Form</h3>
+  <form action="mailto:jh.22parra@gmail.com" method="post" enctype="text/plain">
+    <table>
+          <tr>
+          <td><label for="name">Full name:</label></td>
+          <td><input type="text" id="name"name="name" placeholder="Name and last name" required></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email address:</label></td>
+          <td><input type="email" id="email"name="email"placeholder="Type your email" required></td>
+        </tr>
+        <tr>
+          <td><label for="phone">Phone Number:</label></td>
+          <td><input type="tel" id="email"name="email"placeholder="+57 3122125353" required></td>
+        </tr>
+    </table>
+    <label for="comment">Your Comments:</label><br>
+    <textarea id="comment" name="comment" rows="8" cols="80"placeholder="Post your comment here"></textarea><br>
+    <input type="checkbox" id="agree" name="agree" required checked><label for="agree">I agree receive email with information</label> <br>
+    <input type="submit" id="email"name="email">
+  </form>
+</html>
